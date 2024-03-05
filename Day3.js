@@ -1,3 +1,4 @@
+"use strict";
 //Day 3 Challenge
 //Question 1
 // Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
@@ -19,5 +20,5 @@ console.log(16 / 2); //Division
 console.log("-".repeat(60));
 //Question 3
 // Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
-var favorite_number = 6; //my favoriteNumber
-console.log("My favorite number is: ".concat(favorite_number, ".")); //print message
+let favorite_number = 6; //my favoriteNumber
+console.log(`My favorite number is: ${favorite_number}.`); //print message

@@ -1,4 +1,4 @@
-//Day 04 Challenge
+//Day 05 Challenge
 //Question 13
 
 //Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.
@@ -6,7 +6,7 @@
 
 let transportModes = ["Car","Bike","Cycle","Sport","Bus"];
 
-transportModes.forEach(transport => console.log(`I would like to own a ${transport}\n`));
+transportModes.forEach(transport => {console.log(`I would like to own a ${transport}.`)});
 
 
 //Question 14
@@ -15,7 +15,7 @@ transportModes.forEach(transport => console.log(`I would like to own a ${transpo
 
 let guestList = ["Hina Naseer","Ameen Alam","Hamzah Syed","Asharib Ali"];
 
-guestList.forEach(guest => console.log(`Hello ${guest},would you like to dinner with me`));
+guestList.forEach(guest => {console.log(`Hello ${guest},would you like to dinner with me`)});
 
 //Question 15
 
@@ -31,7 +31,7 @@ let guestsList = ["Hooria","Mariyum","Fabeeha","Romaisa"];
 
 let notCome = guestsList[0];
 
-console.log(notCome, "not come in dinner");//THis not come
+console.log(notCome, "can't make it to dinner");//THis not come
 
-guestList.splice(0,1,"Rabia");
+guestList.splice(0,1,"Rabia");//Replace the guest
 guestList.forEach(guests => console.log(`Hello ${guests},would you like to dinner with me`));
